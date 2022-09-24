@@ -25,7 +25,6 @@ public class CashbackHackerTest {
     }
 
     @Test
-    @Ignore
     public void shouldWriteAmountIsBoundary() {
         CashbackHacker service = new CashbackHacker();
         int expected = 0;
